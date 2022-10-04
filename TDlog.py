@@ -7,3 +7,9 @@ def factoriel(n):
 print(factoriel(5))
 
 from unittest import TestCase
+from factoriel import factoriel
+
+class Test(TestCase):
+    def test_factoriel(self):
+        self.assertEqual(1, factoriel(0))
+        self.assertEqual(24, factoriel(4))
