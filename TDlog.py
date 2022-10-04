@@ -5,3 +5,5 @@ def factoriel(n):
         return n*factoriel(n-1)
 
 print(factoriel(5))
+
+from unittest import TestCase
