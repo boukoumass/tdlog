@@ -23,8 +23,8 @@ class Vessel:
         print(self.coordinates)
     def fire_at(self,x:float, y:float, z:float):
         print(f"fire at {x,y,z}")
-Cruiser=Vessel((2,3,4),6,Lance_missiles_anti_air)
-Submarine=Vessel((2,3,4),2,Lance_torpilles)
-Fregate=Vessel((2,3,4),5,Lance_missiles_anti_surface)
-Destroyer=Vessel((2,3,4),4,Lance_torpilles)
-Aircraft=Vessel((2,3,4),1,Lance_missiles_anti_surface)
+Cruiser=Vessel((x,y,z),6,Lance_missiles_anti_air)
+Submarine=Vessel((x,y,z),2,Lance_torpilles)
+Fregate=Vessel((x,y,z),5,Lance_missiles_anti_surface)
+Destroyer=Vessel((x,y,z),4,Lance_torpilles)
+Aircraft=Vessel(((x,y,z),1,Lance_missiles_anti_surface)
