@@ -196,5 +196,17 @@ d=Cruiser((2,3,0))
 d.go_to(3, 3, 0) 
 d.fire_at(1, 1, 1)    
 A=Aircraft((2,3,0))
-A.go_to(3, 3, 0) 
+A.go_to(3, 3, 1) 
 A.fire_at(1, 1, 1)
+B=Destroyer((2,3,0))
+B.go_to(3, 3, 0) 
+B.fire_at(1, 1, 1)
+c=Fregate((2,3,0))
+c.go_to(3, 3, 0) 
+c.fire_at(1, 1, 1)
+e=Submarine((2,3,0))
+e.go_to(3, 3, 0) 
+e.fire_at(1, 1, 1)
+        
+    
+        
