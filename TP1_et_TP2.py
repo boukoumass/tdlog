@@ -191,7 +191,7 @@ class Aircraft(Vessel):
             self.weapon.ammunitions-=1
         else:
             self.weapon.fire_at(x, y, z)
-        
+ #Ce n'est   pas un test unitaire, ça it's  juste  a randomm test to verify if the code is working on a random example     
 d=Cruiser((2,3,0))
 d.go_to(3, 3, 0) 
 d.fire_at(1, 1, 1)    
